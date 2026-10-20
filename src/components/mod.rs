@@ -23,3 +23,13 @@ pub mod ownership;
 pub mod borrorwing;
 
 pub mod arrays;
+
+pub mod vector;
+
+pub mod tuples;
+
+pub mod hashmap;
+
+pub mod structs;
+
+pub mod enums;

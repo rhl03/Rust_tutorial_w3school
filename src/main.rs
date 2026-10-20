@@ -1,8 +1,9 @@
 mod components;
 
 use components::{
-    arrays, booleans, borrorwing, constants, data_types, function, if_else_conditions, loops,
-    match_tutorial, operators, ownership, strings, variable,
+    arrays, booleans, borrorwing, constants, data_types, enums, function, hashmap,
+    if_else_conditions, loops, match_tutorial, operators, ownership, strings, structs, tuples,
+    variable, vector,
 };
 
 // start of the program
@@ -75,4 +76,32 @@ fn main() {
     arrays::loop_array();
     arrays::print_array();
     arrays::dynamic_array();
+    println!("w3school Rust tutorial: vector");
+    vector::access_vector();
+    vector::change_vector();
+    vector::add_vector();
+    vector::remove_vector();
+    vector::insert_vector();
+    vector::lenght_vector();
+    vector::loop_vector();
+    println!(" ");
+    println!("w3school Rust tutorial: tuples");
+    tuples::access_tuple();
+    tuples::unpack_typle();
+    tuples::return_tuple();
+    println!(" ");
+    println!("w3school Rust tutorial: hashmap");
+    hashmap::access_hashmap();
+    hashmap::create_hashmap();
+    hashmap::update_hashmap();
+    hashmap::remove_hashmap();
+    hashmap::loop_hashmap();
+    println!(" ");
+    println!("w3school Rust tutorial: struct");
+    structs::change_structs();
+    structs::create_structs();
+    println!(" ");
+    println!("w3school Rust tutorial: enum");
+    enums::create_enum();
+    enums::data_enums();
 }
