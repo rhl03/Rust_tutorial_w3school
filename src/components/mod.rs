@@ -11,3 +11,15 @@ pub mod booleans;
 pub mod if_else_conditions;
 
 pub mod match_tutorial;
+
+pub mod loops;
+
+pub mod function;
+
+pub mod strings;
+
+pub mod ownership;
+
+pub mod borrorwing;
+
+pub mod arrays;
