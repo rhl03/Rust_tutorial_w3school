@@ -4,3 +4,25 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[[bin]]
+name = "say_hello"
+path = "practices/say_hello.rs"
+
+[[bin]]
+name = "celsius_to_fahrenheit"
+path = "practices/celsius_to_fahrenheit.rs"
+
+[[bin]]
+name = "even_or_odd"
+path = "practices/even_or_odd.rs"
+
+[[bin]]
+name = "make_a_username"
+path = "practices/make_a_username.rs"
+
+[[bin]]
+name = "voting_age"
+path = "practices/voting_age.rs"
+
+
